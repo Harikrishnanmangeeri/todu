@@ -3,7 +3,7 @@ import "./Todo.css"
 const Addtask = ({propss}) => {
     const [value, setValue] = useState("")
     const addItem = () => { 
-        if(value==""){
+        if(value===""){
             
         }else{
             propss(value)
